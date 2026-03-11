@@ -378,8 +378,8 @@ function DadosPage() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 mt-3">
           <Field label="Sexo: *" value="FEMININO" />
           <Field label="Data de Nasc.: *" value="22/02/2006" />
-          <Field label="Telefone: *" value="" />
-          <Field label="Telefone alternativo:" value="" />
+          <Field label="Telefone: *" value="835272349" />
+          <Field label="Telefone alternativo:" value="868472305" />
           <Field label="Nível:" value="1" />
         </div>
 
@@ -438,7 +438,7 @@ function TabCurso() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
           <Field label="Habilitações de Ingresso:" value="MEDIO" />
           <Field label="Última Escola:" value="" />
-          <Field label="Área de Formação:" value="12b" />
+          <Field label="Área de Formação:" value="12B" />
           <Field label="Ano Conclusão:" value="2025" />
         </div>
         <Field label="Tem Certificado:" value="" className="w-36" />
