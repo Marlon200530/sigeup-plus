@@ -252,7 +252,6 @@ function NotasPage() {
       <div className="flex flex-wrap items-center gap-2 mb-5">
         <select value={ano} onChange={(e) => setAno(e.target.value)} className="border border-gray-300 rounded px-3 py-1.5 text-sm flex-1 min-w-0 max-w-xs">
           <option value="2026">Ano Lectivo de 2026</option>
-          <option value="2025">Ano Lectivo de 2025</option>
         </select>
         <button className="bg-green-600 hover:bg-green-700 text-white px-4 py-1.5 text-sm rounded flex items-center gap-2 transition whitespace-nowrap">
           <Search size={14} /> Buscar
@@ -438,11 +437,11 @@ function TabCurso() {
       <div className="border border-gray-200 rounded p-3 md:p-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-3">
           <Field label="Habilitações de Ingresso:" value="MEDIO" />
-          <Field label="Última Escola:" value="ESCOLA SECUNDÁRIA ES ARMANDO E. GUE" />
-          <Field label="Área de Formação:" value="12A" />
+          <Field label="Última Escola:" value="" />
+          <Field label="Área de Formação:" value="12b" />
           <Field label="Ano Conclusão:" value="2025" />
         </div>
-        <Field label="Tem Certificado:" value="SIM" className="w-36" />
+        <Field label="Tem Certificado:" value="" className="w-36" />
       </div>
     </div>
   );
