@@ -328,7 +328,6 @@ function NotasPage({ user, isMobile }) {
         <select value={ano} onChange={(e) => setAno(e.target.value)}
           style={{ border: "1px solid #d1d5db", borderRadius: 4, padding: "6px 10px", fontSize: 13, flex: 1, maxWidth: 260 }}>
           <option value="2026">Ano Lectivo de 2026</option>
-          <option value="2025">Ano Lectivo de 2025</option>
         </select>
         <button style={{ backgroundColor: "#16a34a", color: "white", border: "none", borderRadius: 4, padding: "6px 16px", fontSize: 13, cursor: "pointer", display: "flex", alignItems: "center", gap: 6 }}>
           <Search size={14} /> Buscar
